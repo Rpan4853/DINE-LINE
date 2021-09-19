@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MIT DINING TRACKER</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <div id="map"></div>
+    <div id="vassarText"><a href="https://mit.cafebonappetit.com/cafe/new-vassar/" target="_blank" >New Vassar Dining:</a> 223/407</div>
+    <div id="simmonsText"><a href="https://mit.cafebonappetit.com/cafe/simmons/" target="_blank" >Simmons Dining:</a> 170/322</div>
+    <div id="nextText"><a href="https://mit.cafebonappetit.com/cafe/next/" target="_blank" >Next Dining:</a> 354/354</div>
+    <div id="bakerText"><a href="https://mit.cafebonappetit.com/cafe/baker/" target="_blank" >Baker Dining:</a> 181/239</div>
+    <div id="mccormickText"><a href="https://mit.cafebonappetit.com/cafe/mccormick/" target="_blank" >McCormick Dining:</a> 42/239</div>
+    <div id="maseehText"><a href="https://mit.cafebonappetit.com/cafe/the-howard-dining-hall-at-maseeh/" target="_blank" >The Howard Dining Hall at Maseeh:</a> 32/331</div>
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPd4Y5_yFSRD1eIRxl0iq5rMMmKTqsO94&callback=initMap&v=weekly"
+      async
+    ></script>
+  </body>
+</html>
+
